@@ -25,9 +25,8 @@ const EvolutionSection = () => {
           
           <div className="text-center mb-12">
             <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed max-w-4xl mx-auto">
-              O CRM Kommo é uma ferramenta poderosa para centralizar leads e organizar canais de atendimento.<br />
-              Mas sozinho, ele é apenas um painel de controle.<br />
-              A diferença real acontece quando automatizamos os processos, garantindo:
+              O CRM Kommo organiza leads, mas sozinho não garante velocidade.<br />
+              E quem demora a responder… perde clientes.
             </p>
             
             <div className="grid md:grid-cols-3 gap-8 mb-12">
