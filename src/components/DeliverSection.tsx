@@ -26,7 +26,7 @@ const DeliverSection = () => {
     {
       icon: Smartphone,
       title: "Multicanal Integrado",
-      description: "WhatsApp, Instagram, Facebook e outros canais em um só sistema."
+      description: "Responda todos os canais automaticamente dentro do Kommo."
     }
   ];
 
