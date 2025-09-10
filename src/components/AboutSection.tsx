@@ -15,7 +15,13 @@ const AboutSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-8">
-            Sobre a MC FACE CLINIC
+            <span className="block md:hidden">
+              Sobre a<br />
+              <span className="font-montserrat font-semibold" style={{ color: '#4a4a4a' }}>M<span style={{ color: '#ed832b' }}>C</span> FACE CLINIC</span>
+            </span>
+            <span className="hidden md:block">
+              Sobre a <span className="font-montserrat font-semibold" style={{ color: '#4a4a4a' }}>M<span style={{ color: '#ed832b' }}>C</span> FACE CLINIC</span>
+            </span>
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground mb-12 leading-relaxed">
             Há mais de 10 anos, a MC FACE CLINIC, liderada por Matheus Carvalho, vem elevando a beleza e transformando vidas através de procedimentos inovadores:
