@@ -33,18 +33,38 @@ const BenefitsSection = () => {
           </h2>
           
           <div className="bg-gradient-to-br from-primary/5 via-accent/5 to-success/5 p-8 md:p-12 rounded-2xl border border-primary/20">
-            <div className="grid md:grid-cols-2 gap-8">
-              {benefits.map((benefit, index) => {
-                const Icon = benefit.icon;
-                return (
-                  <div key={index} className="flex items-start space-x-4">
-                    <div className="flex-shrink-0 bg-white p-3 rounded-full shadow-lg">
-                      <Icon className="h-6 w-6 text-primary" />
+            <div className="space-y-8">
+              {/* Primeira linha com os primeiros 4 benefícios */}
+              <div className="grid md:grid-cols-2 gap-8">
+                {benefits.slice(0, 4).map((benefit, index) => {
+                  const Icon = benefit.icon;
+                  return (
+                    <div key={index} className="flex flex-col items-center text-center space-y-4">
+                      <div className="flex-shrink-0 bg-white p-3 rounded-full shadow-lg">
+                        <Icon className="h-6 w-6 text-primary" />
+                      </div>
+                      <p className="text-foreground font-medium leading-relaxed">{benefit.text}</p>
                     </div>
-                    <p className="text-foreground font-medium leading-relaxed">{benefit.text}</p>
-                  </div>
-                );
-              })}
+                  );
+                })}
+              </div>
+              
+              {/* Segunda linha com o último benefício centralizado */}
+              <div className="flex justify-center">
+                <div className="max-w-md w-full">
+                  {(() => {
+                    const Icon = benefits[4].icon;
+                    return (
+                      <div className="flex flex-col items-center text-center space-y-4">
+                        <div className="flex-shrink-0 bg-white p-3 rounded-full shadow-lg">
+                          <Icon className="h-6 w-6 text-primary" />
+                        </div>
+                        <p className="text-foreground font-medium leading-relaxed">{benefits[4].text}</p>
+                      </div>
+                    );
+                  })()}
+                </div>
+              </div>
             </div>
           </div>
         </div>
