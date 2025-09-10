@@ -44,7 +44,7 @@ const PlanActionSection = () => {
               {planItems.slice(0, 3).map((item, index) => {
                 const Icon = item.icon;
                 return (
-                  <Card key={index} className="border-border/50 hover:shadow-[0_10px_30px_-5px_rgba(237,131,43,0.3)] shadow-[0_4px_15px_-2px_rgba(237,131,43,0.15)] transition-all duration-300 hover:scale-[1.02]">
+                  <Card key={index} className="border-border/50 transition-all duration-300 hover:scale-[1.02]">
                     <CardHeader className="text-center">
                       <div className="bg-primary/10 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                         <Icon className="h-8 w-8 text-primary" />
@@ -68,7 +68,7 @@ const PlanActionSection = () => {
               {planItems.slice(3, 5).map((item, index) => {
                 const Icon = item.icon;
                 return (
-                  <Card key={index + 3} className="border-border/50 hover:shadow-[0_10px_30px_-5px_rgba(237,131,43,0.3)] shadow-[0_4px_15px_-2px_rgba(237,131,43,0.15)] transition-all duration-300 hover:scale-[1.02]">
+                  <Card key={index + 3} className="border-border/50 transition-all duration-300 hover:scale-[1.02]">
                     <CardHeader className="text-center">
                       <div className="bg-primary/10 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                         <Icon className="h-8 w-8 text-primary" />
