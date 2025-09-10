@@ -30,9 +30,9 @@ const HeroSection = () => {
         <div className="text-center mt-16">
           <p className="text-muted-foreground mb-4">Powered by</p>
           <img 
-            src="/lovable-uploads/9f177863-6204-4d07-8693-1c7113535285.png" 
+            src="/lovable-uploads/53e72638-a323-43bd-a2b8-68784f626397.png" 
             alt="True Rise Company Logo" 
-            className="max-w-xs mx-auto h-auto"
+            className="max-w-48 mx-auto h-auto"
           />
         </div>
       </div>
