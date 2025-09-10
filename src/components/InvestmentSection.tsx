@@ -20,8 +20,12 @@ const InvestmentSection = () => {
                 <CardTitle className="text-2xl font-bold text-foreground">
                   💰 Implementação Única
                 </CardTitle>
-                <CardDescription className="text-3xl font-bold text-primary mt-2">
-                  R$ 3.500,00
+                <CardDescription className="text-muted-foreground mt-2">
+                  <span className="text-lg line-through">De R$ 5.000,00</span>
+                  <div className="text-3xl font-bold text-primary">
+                    Por R$ 3.500,00
+                  </div>
+                  <span className="text-sm text-accent font-medium">(desconto para cliente beta)</span>
                 </CardDescription>
               </CardHeader>
               <CardContent className="pt-6">
