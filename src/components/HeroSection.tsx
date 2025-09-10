@@ -18,7 +18,8 @@ const HeroSection = () => {
               <span className="block md:hidden">
                 SecretarIA: sua atendente digital<br />
                 humanizada e 24h disponível<br />
-                sem férias e sem atrasos, sempre disponível.
+                sem férias e sem atrasos<br />
+                sempre disponível.
               </span>
               <span className="hidden md:block">
                 SecretarIA: sua atendente digital 24h por dia<br />
