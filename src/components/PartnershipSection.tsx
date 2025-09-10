@@ -1,33 +1,53 @@
+import { Handshake, Users, Gift, DollarSign } from "lucide-react";
+
 const PartnershipSection = () => {
   const partnershipBenefits = [
-    "20% de desconto na implementação por indicação",
-    "R$ 100,00 de desconto na mensalidade por cliente indicado",
-    "5 indicações = manutenção gratuita",
-    "A partir da 6ª indicação → repasse financeiro mensal"
+    {
+      icon: Gift,
+      text: "20% de desconto na implementação para clientes indicados."
+    },
+    {
+      icon: DollarSign,
+      text: "R$ 100,00 de desconto na mensalidade por cliente indicado."
+    },
+    {
+      icon: Users,
+      text: "5 indicações = mensalidade zerada."
+    },
+    {
+      icon: Handshake,
+      text: "A partir do 5º cliente, os descontos viram repasse financeiro (20 clientes = R$ 1.500,00 de lucro mensal para a MC FACE CLINIC)."
+    }
   ];
 
   return (
-    <section className="py-20 bg-muted">
+    <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-8 text-center">
-            Parceria Exclusiva
+        <div className="max-w-5xl mx-auto">
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-8 text-center">
+            Proposta de Parceria
           </h2>
           
-          <p className="text-center text-foreground mb-8 text-lg">
-            Indique clientes e ganhe:
-          </p>
+          <div className="text-center mb-12">
+            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
+              A True Rise Company também oferece um modelo de parceria para expansão conjunta:
+            </p>
+          </div>
 
-          <div className="space-y-4">
-            {partnershipBenefits.map((benefit, index) => (
-              <div 
-                key={index} 
-                className="bg-gradient-to-r from-success/5 to-primary/5 p-4 rounded-lg border border-success/20 flex items-center space-x-3"
-              >
-                <span className="text-success">•</span>
-                <span className="text-foreground font-medium">{benefit}</span>
-              </div>
-            ))}
+          <div className="bg-gradient-to-br from-primary/5 via-accent/5 to-success/5 p-8 md:p-12 rounded-2xl border border-primary/20">
+            <div className="grid md:grid-cols-2 gap-8">
+              {partnershipBenefits.map((benefit, index) => {
+                const Icon = benefit.icon;
+                return (
+                  <div key={index} className="flex items-start space-x-4">
+                    <div className="flex-shrink-0 bg-white p-3 rounded-full shadow-lg">
+                      <Icon className="h-6 w-6 text-primary" />
+                    </div>
+                    <p className="text-foreground font-medium leading-relaxed">{benefit.text}</p>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>

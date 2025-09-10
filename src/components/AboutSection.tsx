@@ -1,8 +1,8 @@
-import { CheckCircle } from "lucide-react";
+import { Check } from "lucide-react";
 
 const AboutSection = () => {
   const services = [
-    "Micropigmentação de sobrancelhas",
+    "Micropigmentação e Despigmentação de sobrancelhas",
     "Remoção de tatuagem", 
     "Micropigmentação labial",
     "Bye Bye Estrias",
@@ -13,23 +13,20 @@ const AboutSection = () => {
   return (
     <section className="py-20 bg-muted">
       <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-8 text-center">
-            Por que a MC FACE CLINIC?
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-8">
+            Sobre a MC FACE CLINIC
           </h2>
-          
-          <p className="text-center text-foreground mb-8 text-lg">
-            Mais de 10 anos transformando vidas com:
+          <p className="text-lg md:text-xl text-muted-foreground mb-12 leading-relaxed">
+            Há mais de 10 anos, a MC FACE CLINIC, liderada por Matheus Carvalho, vem elevando a beleza e transformando vidas através de procedimentos inovadores:
           </p>
-
-          <div className="space-y-4">
+          <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
             {services.map((service, index) => (
-              <div 
-                key={index} 
-                className="flex items-center space-x-3 justify-center md:justify-start"
-              >
-                <CheckCircle className="h-5 w-5 text-success flex-shrink-0" />
-                <span className="text-foreground">{service}</span>
+              <div key={index} className="flex items-center space-x-3 text-left">
+                <div className="flex-shrink-0">
+                  <Check className="h-6 w-6 text-success" />
+                </div>
+                <span className="text-foreground font-medium">{service}</span>
               </div>
             ))}
           </div>
