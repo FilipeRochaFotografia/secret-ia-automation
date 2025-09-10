@@ -29,7 +29,13 @@ const BenefitsSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-16 text-center">
-            Benefícios para a MC FACE CLINIC
+            <span className="block md:hidden">
+              Benefícios para a<br />
+              <span className="font-montserrat font-semibold" style={{ color: '#4a4a4a' }}>M<span style={{ color: '#ed832b' }}>C</span> FACE CLINIC</span>
+            </span>
+            <span className="hidden md:block">
+              Benefícios para a <span className="font-montserrat font-semibold" style={{ color: '#4a4a4a' }}>M<span style={{ color: '#ed832b' }}>C</span> FACE CLINIC</span>
+            </span>
           </h2>
           
           <div className="bg-gradient-to-br from-primary/5 via-accent/5 to-success/5 p-8 md:p-12 rounded-2xl border border-primary/20">
