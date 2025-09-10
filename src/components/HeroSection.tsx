@@ -5,11 +5,25 @@ const HeroSection = () => {
         <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="text-center lg:text-left">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
-              Automatize o atendimento da MC FACE CLINIC
+              <span className="block md:hidden">
+                Automatize<br />
+                o atendimento<br />
+                da MC FACE CLINIC
+              </span>
+              <span className="hidden md:block">
+                Automatize o atendimento da MC FACE CLINIC
+              </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-              SecretarIA: sua atendente digital 24h por dia<br />
-              sem férias, sem atrasos, sem erros.
+              <span className="block md:hidden">
+                SecretarIA: sua atendente digital<br />
+                humanizada e 24h disponível<br />
+                sem férias, sem atrasos, sem erros.
+              </span>
+              <span className="hidden md:block">
+                SecretarIA: sua atendente digital 24h por dia<br />
+                sem férias, sem atrasos, sem erros.
+              </span>
             </p>
             <Button variant="hero" size="lg" className="text-lg px-8 py-4 h-auto">
               Quero Saber Mais
