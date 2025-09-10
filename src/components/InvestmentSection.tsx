@@ -62,7 +62,8 @@ const InvestmentSection = () => {
                   R$ 500,00
                 </CardDescription>
                 <CardDescription className="text-sm text-muted-foreground mt-1">
-                  R$20,000+ de economia anual com secretária
+                  <div>R$20,000+ de economia</div>
+                  <div>anual com secretária</div>
                 </CardDescription>
               </CardHeader>
               <CardContent className="pt-6">
