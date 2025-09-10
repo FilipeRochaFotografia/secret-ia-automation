@@ -4,7 +4,7 @@ import { CreditCard, RefreshCw } from "lucide-react";
 
 const InvestmentSection = () => {
   return (
-    <section id="investment-section" className="py-20 bg-muted">
+    <section id="investment-section" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-16 text-center">
