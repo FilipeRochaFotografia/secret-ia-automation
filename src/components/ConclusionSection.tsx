@@ -6,7 +6,7 @@ const ConclusionSection = () => {
     "Atendimento 24/7",
     "Um funcionário digital incansável", 
     "Mais agendamentos e clientes satisfeitos",
-    "Mais tempo para focar na excelência dos procedimentos"
+    "Foque no que interessa"
   ];
 
   return (
