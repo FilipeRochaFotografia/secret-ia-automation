@@ -35,6 +35,15 @@ const ConclusionSection = () => {
               Quero Implementar Agora
             </Button>
           </div>
+          
+          {/* True Rise Logo */}
+          <div className="text-center">
+            <img 
+              src="/lovable-uploads/9f177863-6204-4d07-8693-1c7113535285.png" 
+              alt="True Rise Company Logo" 
+              className="max-w-xs mx-auto h-auto opacity-80"
+            />
+          </div>
         </div>
       </div>
     </section>
