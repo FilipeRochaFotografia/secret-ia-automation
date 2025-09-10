@@ -14,7 +14,8 @@ const InvestmentSection = () => {
               <span className="font-montserrat font-semibold" style={{ color: '#4a4a4a' }}>M<span style={{ color: '#ed832b' }}>C</span> FACE CLINIC</span>
             </span>
             <span className="hidden md:block">
-              Investimento na modernização da <span className="font-montserrat font-semibold" style={{ color: '#4a4a4a' }}>M<span style={{ color: '#ed832b' }}>C</span> FACE CLINIC</span>
+              Investimento na modernização<br />
+              da <span className="font-montserrat font-semibold" style={{ color: '#4a4a4a' }}>M<span style={{ color: '#ed832b' }}>C</span> FACE CLINIC</span>
             </span>
           </h2>
           
