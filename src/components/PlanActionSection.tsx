@@ -45,16 +45,16 @@ const PlanActionSection = () => {
                 const Icon = item.icon;
                 return (
                   <Card key={index} className="border-border/50 transition-all duration-300 hover:scale-[1.02]">
-                    <CardHeader className="text-center">
-                      <div className="bg-primary/10 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                        <Icon className="h-8 w-8 text-primary" />
+                    <CardHeader className="text-center p-4">
+                      <div className="bg-primary/10 p-2 rounded-full w-12 h-12 mx-auto mb-3 flex items-center justify-center">
+                        <Icon className="h-6 w-6 text-primary" />
                       </div>
-                      <CardTitle className="text-lg font-bold text-foreground">
+                      <CardTitle className="text-base font-bold text-foreground">
                         {item.title}
                       </CardTitle>
                     </CardHeader>
-                    <CardContent>
-                      <CardDescription className="text-center text-muted-foreground leading-relaxed">
+                    <CardContent className="p-4 pt-0">
+                      <CardDescription className="text-center text-muted-foreground leading-relaxed text-sm">
                         {item.description}
                       </CardDescription>
                     </CardContent>
@@ -69,16 +69,16 @@ const PlanActionSection = () => {
                 const Icon = item.icon;
                 return (
                   <Card key={index + 3} className="border-border/50 transition-all duration-300 hover:scale-[1.02]">
-                    <CardHeader className="text-center">
-                      <div className="bg-primary/10 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                        <Icon className="h-8 w-8 text-primary" />
+                    <CardHeader className="text-center p-4">
+                      <div className="bg-primary/10 p-2 rounded-full w-12 h-12 mx-auto mb-3 flex items-center justify-center">
+                        <Icon className="h-6 w-6 text-primary" />
                       </div>
-                      <CardTitle className="text-lg font-bold text-foreground">
+                      <CardTitle className="text-base font-bold text-foreground">
                         {item.title}
                       </CardTitle>
                     </CardHeader>
-                    <CardContent>
-                      <CardDescription className="text-center text-muted-foreground leading-relaxed">
+                    <CardContent className="p-4 pt-0">
+                      <CardDescription className="text-center text-muted-foreground leading-relaxed text-sm">
                         {item.description}
                       </CardDescription>
                     </CardContent>
