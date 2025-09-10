@@ -2,9 +2,9 @@ import { Clock, Users, TrendingUp, CheckCircle, Calendar, BarChart } from "lucid
 
 const EvolutionSection = () => {
   const benefits = [
-    { icon: Clock, text: "Atendimento imediato (sem deixar o cliente esperando)" },
-    { icon: Users, text: "Padronização das respostas, sem perder o lado humano" },
-    { icon: TrendingUp, text: "Mais conversões e menos tempo desperdiçado pela equipe" }
+    { icon: Clock, text: "Atendimento imediato" },
+    { icon: Users, text: "Padronização das Respostas" },
+    { icon: TrendingUp, text: "Mais conversões em menos tempo" }
   ];
 
   const features = [
