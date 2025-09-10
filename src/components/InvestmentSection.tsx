@@ -40,7 +40,7 @@ const InvestmentSection = () => {
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="text-success mt-1">•</span>
-                    <span className="text-muted-foreground">Integração completa com o Kommo CRM.</span>
+                    <span className="text-muted-foreground">Integração das automações True Rise com o CRM Kommo.</span>
                   </li>
                 </ul>
               </CardContent>
