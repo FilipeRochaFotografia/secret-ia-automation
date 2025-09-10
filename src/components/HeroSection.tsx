@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 const HeroSection = () => {
-  return <section className="relative bg-background py-20 lg:py-32">
+  return <section className="relative bg-background py-12 lg:py-32">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="text-center lg:text-left">
