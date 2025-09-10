@@ -22,14 +22,14 @@ const BenefitsSection = () => {
             {/* Primeira linha com os primeiros 4 benefícios */}
             <div className="grid md:grid-cols-2 gap-8">
               {benefits.slice(0, 4).map((benefit, index) => (
-                <Card key={index} className="border-success/20 hover:shadow-lg transition-shadow duration-300">
-                  <CardHeader className="pb-4">
-                    <div className="bg-success/10 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-3">
-                      <CheckCircle className="h-6 w-6 text-success" />
+                <Card key={index} className="border-border/50 hover:shadow-lg transition-shadow duration-300">
+                  <CardHeader className="text-center">
+                    <div className="bg-success/10 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                      <CheckCircle className="h-8 w-8 text-success" />
                     </div>
                   </CardHeader>
-                  <CardContent className="pt-0">
-                    <CardDescription className="text-foreground font-medium text-lg leading-relaxed">
+                  <CardContent>
+                    <CardDescription className="text-center text-foreground font-medium text-lg leading-relaxed">
                       {benefit}
                     </CardDescription>
                   </CardContent>
@@ -40,14 +40,14 @@ const BenefitsSection = () => {
             {/* Segunda linha com o último benefício centralizado */}
             <div className="flex justify-center">
               <div className="max-w-md w-full">
-                <Card className="border-success/20 hover:shadow-lg transition-shadow duration-300">
-                  <CardHeader className="pb-4">
-                    <div className="bg-success/10 p-3 rounded-full w-12 h-12 flex items-center justify-center mb-3">
-                      <CheckCircle className="h-6 w-6 text-success" />
+                <Card className="border-border/50 hover:shadow-lg transition-shadow duration-300">
+                  <CardHeader className="text-center">
+                    <div className="bg-success/10 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                      <CheckCircle className="h-8 w-8 text-success" />
                     </div>
                   </CardHeader>
-                  <CardContent className="pt-0">
-                    <CardDescription className="text-foreground font-medium text-lg leading-relaxed">
+                  <CardContent>
+                    <CardDescription className="text-center text-foreground font-medium text-lg leading-relaxed">
                       {benefits[4]}
                     </CardDescription>
                   </CardContent>
