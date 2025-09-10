@@ -11,7 +11,7 @@ const PlanActionSection = () => {
     {
       icon: Settings,
       title: "Personalização",
-      description: "SecretarIA treinada com a linguagem da MC FACE CLINIC."
+      description: "SecretarIA treinada com a linguagem vencedora da MC FACE CLINIC."
     },
     {
       icon: Link,
