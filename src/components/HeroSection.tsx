@@ -7,8 +7,7 @@ const HeroSection = () => {
         <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           <div className="text-center lg:text-left">
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
-              Automatize o atendimento<br />
-              da MC FACE CLINIC
+              Automatize o atendimento da MC FACE CLINIC
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
               SecretarIA: sua atendente digital 24h por dia<br />
