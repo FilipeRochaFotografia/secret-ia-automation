@@ -31,7 +31,7 @@ const ConclusionSection = () => {
               ))}
             </div>
             
-            <Button variant="cta" size="lg" className="text-xl px-12 py-6 h-auto font-bold">
+            <Button variant="cta" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 h-auto font-bold w-full md:w-auto">
               Quero Implementar Agora
             </Button>
           </div>
