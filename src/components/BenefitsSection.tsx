@@ -1,5 +1,4 @@
 import { PiggyBank, Shield, Zap, Heart, Clock } from "lucide-react";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const BenefitsSection = () => {
   const benefits = [
@@ -33,55 +32,19 @@ const BenefitsSection = () => {
             Benefícios para a MC FACE CLINIC
           </h2>
           
-          <div className="space-y-8">
-            {/* Primeira linha com os primeiros 4 benefícios */}
+          <div className="bg-gradient-to-br from-primary/5 via-accent/5 to-success/5 p-8 md:p-12 rounded-2xl border border-primary/20">
             <div className="grid md:grid-cols-2 gap-8">
-              {benefits.slice(0, 4).map((benefit, index) => {
+              {benefits.map((benefit, index) => {
                 const Icon = benefit.icon;
                 return (
-                <Card key={index} className="border-border/50 transition-all duration-300 hover:scale-[1.02] bg-card shadow-lg hover:shadow-xl">
-                  <CardHeader className="text-center">
-                    <div className="bg-primary/10 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                      <Icon className="h-8 w-8 text-primary" />
+                  <div key={index} className="flex items-start space-x-4">
+                    <div className="flex-shrink-0 bg-white p-3 rounded-full shadow-lg">
+                      <Icon className="h-6 w-6 text-primary" />
                     </div>
-                    <CardTitle className="text-lg font-bold text-foreground mb-2">
-                      Benefício {index + 1}
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <CardDescription className="text-center text-muted-foreground font-medium text-base leading-relaxed">
-                      {benefit.text}
-                    </CardDescription>
-                  </CardContent>
-                </Card>
+                    <p className="text-foreground font-medium leading-relaxed">{benefit.text}</p>
+                  </div>
                 );
               })}
-            </div>
-            
-            {/* Segunda linha com o último benefício centralizado */}
-            <div className="flex justify-center">
-              <div className="max-w-md w-full">
-                {(() => {
-                  const Icon = benefits[4].icon;
-                  return (
-                <Card className="border-border/50 transition-all duration-300 hover:scale-[1.02] bg-card shadow-lg hover:shadow-xl">
-                  <CardHeader className="text-center">
-                    <div className="bg-primary/10 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                      <Icon className="h-8 w-8 text-primary" />
-                    </div>
-                    <CardTitle className="text-lg font-bold text-foreground mb-2">
-                      Benefício 5
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <CardDescription className="text-center text-muted-foreground font-medium text-base leading-relaxed">
-                      {benefits[4].text}
-                    </CardDescription>
-                  </CardContent>
-                </Card>
-                  );
-                })()}
-              </div>
             </div>
           </div>
         </div>
