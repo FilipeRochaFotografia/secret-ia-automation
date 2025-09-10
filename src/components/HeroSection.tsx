@@ -5,7 +5,7 @@ const HeroSection = () => {
     <section className="relative bg-background py-20 lg:py-32">
       <div className="container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
             Automatize o atendimento<br />
             da MC FACE CLINIC
           </h1>
