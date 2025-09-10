@@ -44,6 +44,7 @@ const ConclusionSection = () => {
                 e.currentTarget.style.background = '#ed832b';
                 e.currentTarget.style.borderColor = '#ed832b';
               }}
+              onClick={() => document.getElementById('investment-section')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Quero Implementar Agora
             </Button>

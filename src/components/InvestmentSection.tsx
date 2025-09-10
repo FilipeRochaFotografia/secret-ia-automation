@@ -1,9 +1,10 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { CreditCard, RefreshCw } from "lucide-react";
 
 const InvestmentSection = () => {
   return (
-    <section className="py-20 bg-muted">
+    <section id="investment-section" className="py-20 bg-muted">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-16 text-center">
@@ -74,6 +75,25 @@ const InvestmentSection = () => {
                 </ul>
               </CardContent>
             </Card>
+          </div>
+          
+          <div className="text-center mt-12">
+            <Button 
+              variant="cta" 
+              size="lg" 
+              className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 h-auto font-bold w-full md:w-auto text-white"
+              style={{ background: '#ed832b', borderColor: '#ed832b' }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.background = '#d97316';
+                e.currentTarget.style.borderColor = '#d97316';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.background = '#ed832b';
+                e.currentTarget.style.borderColor = '#ed832b';
+              }}
+            >
+              Fale conosco
+            </Button>
           </div>
         </div>
       </div>
