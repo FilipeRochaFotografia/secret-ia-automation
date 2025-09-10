@@ -30,7 +30,7 @@ const HeroSection = () => {
             </Button>
           </div>
           <div className="flex justify-center lg:justify-end">
-            <img src="/lovable-uploads/43a13615-5b90-4767-9a96-c415153e9400.png" alt="MC Face Clinic Logo" className="max-w-md w-full h-auto" />
+            <img src="/lovable-uploads/43a13615-5b90-4767-9a96-c415153e9400.png" alt="MC Face Clinic Logo" className="max-w-56 md:max-w-md w-full h-auto" />
           </div>
         </div>
         
