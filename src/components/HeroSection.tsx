@@ -30,14 +30,14 @@ const HeroSection = () => {
             </Button>
           </div>
           <div className="flex justify-center lg:justify-end">
-            <img src="/lovable-uploads/88736bfa-bdd0-418e-b89f-9ff7abb71fa3.png" alt="MC Face Clinic Logo" className="max-w-md w-full h-auto" />
+            <img src="/lovable-uploads/43a13615-5b90-4767-9a96-c415153e9400.png" alt="MC Face Clinic Logo" className="max-w-md w-full h-auto" />
           </div>
         </div>
         
         {/* True Rise Logo */}
         <div className="text-center mt-16">
           
-          <img src="/lovable-uploads/53e72638-a323-43bd-a2b8-68784f626397.png" alt="True Rise Company Logo" className="max-w-48 mx-auto h-auto" />
+          <img src="/lovable-uploads/984eec9a-2877-4dca-ad90-d94c388c7dc0.png" alt="True Rise Company Logo" className="max-w-48 mx-auto h-auto" />
         </div>
       </div>
     </section>;
