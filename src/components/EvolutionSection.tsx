@@ -10,7 +10,7 @@ const EvolutionSection = () => {
   const features = [
     { icon: CheckCircle, text: "Atende leads em todos os canais" },
     { icon: Users, text: "Responde dúvidas frequentes" },
-    { icon: BarChart, text: "Cataloga informações no CRM" },
+    { icon: BarChart, text: "Cataloga informações no Kommo" },
     { icon: Calendar, text: "Faz agendamentos no Google Calendar" },
     { icon: TrendingUp, text: "Gera relatórios diários de desempenho" }
   ];
