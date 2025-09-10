@@ -18,7 +18,7 @@ const BenefitsSection = () => {
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">
-            {benefits.map((benefit, index) => (
+            {benefits.slice(0, 4).map((benefit, index) => (
               <div 
                 key={index} 
                 className="bg-gradient-to-r from-success/5 to-primary/5 p-6 rounded-xl border border-success/20 hover:shadow-lg transition-shadow duration-300"
@@ -33,6 +33,20 @@ const BenefitsSection = () => {
                 </div>
               </div>
             ))}
+          </div>
+          
+          {/* Centered last item */}
+          <div className="flex justify-center mt-8">
+            <div className="bg-gradient-to-r from-success/5 to-primary/5 p-6 rounded-xl border border-success/20 hover:shadow-lg transition-shadow duration-300 max-w-md">
+              <div className="flex items-start space-x-4">
+                <div className="flex-shrink-0 mt-1">
+                  <CheckCircle className="h-6 w-6 text-success" />
+                </div>
+                <p className="text-foreground font-medium text-lg leading-relaxed">
+                  {benefits[4]}
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
