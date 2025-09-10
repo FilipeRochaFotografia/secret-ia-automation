@@ -3,7 +3,7 @@ import { CheckCircle } from "lucide-react";
 
 const ConclusionSection = () => {
   const finalBenefits = [
-    "Atendimento 24/7 sem contratar mais pessoas",
+    "Atendimento 24/7",
     "Um funcionário digital incansável", 
     "Mais agendamentos e clientes satisfeitos",
     "Mais tempo para focar na excelência dos procedimentos"
