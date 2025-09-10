@@ -11,7 +11,7 @@ const AboutSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-primary/10 via-accent/5 to-success/10">
+    <section className="py-20 bg-gradient-to-br from-primary/5 via-accent/3 to-success/5">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-8">
