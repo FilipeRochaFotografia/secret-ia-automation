@@ -8,7 +8,7 @@ const InvestmentSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-16 text-center">
-            Investimento
+            Investimento na modernização da MC FACE CLINIC
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">
