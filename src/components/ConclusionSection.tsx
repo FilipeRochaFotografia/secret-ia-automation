@@ -3,10 +3,10 @@ import { CheckCircle } from "lucide-react";
 
 const ConclusionSection = () => {
   const finalBenefits = [
-    "Atendimento 24/7",
+    "Atendimento 24/7 sem contratar mais pessoas",
     "Um funcionário digital incansável", 
     "Mais agendamentos e clientes satisfeitos",
-    "Mais tempo para focar no que importa: a beleza dos seus clientes"
+    "Mais tempo para focar na excelência dos procedimentos"
   ];
 
   return (
@@ -32,7 +32,7 @@ const ConclusionSection = () => {
             </div>
             
             <Button variant="cta" size="lg" className="text-xl px-12 py-6 h-auto font-bold">
-              👉 Quero Implementar Agora
+              Quero Implementar Agora
             </Button>
           </div>
         </div>

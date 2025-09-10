@@ -4,19 +4,19 @@ const PartnershipSection = () => {
   const partnershipBenefits = [
     {
       icon: Gift,
-      text: "20% de desconto na implementação por indicação"
+      text: "20% de desconto na implementação para clientes indicados."
     },
     {
       icon: DollarSign,
-      text: "R$ 100,00 de desconto na mensalidade por cliente indicado"
+      text: "R$ 100,00 de desconto na mensalidade por cliente indicado."
     },
     {
       icon: Users,
-      text: "5 indicações = manutenção gratuita"
+      text: "5 indicações = mensalidade zerada."
     },
     {
       icon: Handshake,
-      text: "A partir da 6ª indicação → repasse financeiro mensal"
+      text: "A partir do 5º cliente, os descontos viram repasse financeiro (20 clientes = R$ 1.500,00 de lucro mensal para a MC FACE CLINIC)."
     }
   ];
 
@@ -25,12 +25,12 @@ const PartnershipSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-8 text-center">
-            Parceria Exclusiva
+            Proposta de Parceria
           </h2>
           
           <div className="text-center mb-12">
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed">
-              Indique clientes e ganhe:
+              A True Rise Company também oferece um modelo de parceria para expansão conjunta:
             </p>
           </div>
 
