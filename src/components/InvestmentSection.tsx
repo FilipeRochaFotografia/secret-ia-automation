@@ -32,7 +32,7 @@ const InvestmentSection = () => {
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="text-success mt-1">•</span>
-                    <span className="text-muted-foreground">Treinamento do chatbot SecretarIA.</span>
+                    <span className="text-muted-foreground">Treinamento da SecretarIA.</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="text-success mt-1">•</span>
