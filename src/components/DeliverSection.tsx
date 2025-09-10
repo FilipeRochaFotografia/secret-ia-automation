@@ -31,7 +31,7 @@ const DeliverSection = () => {
   ];
 
   return (
-    <section className="py-20 bg-muted">
+    <section id="deliver-section" className="py-20 bg-muted">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-16 text-center">

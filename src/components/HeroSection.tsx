@@ -25,7 +25,12 @@ const HeroSection = () => {
                 sem férias, sem atrasos, sem erros.
               </span>
             </p>
-            <Button variant="hero" size="lg" className="text-lg px-8 py-4 h-auto">
+            <Button 
+              variant="hero" 
+              size="lg" 
+              className="text-lg px-8 py-4 h-auto bg-orange-500 hover:bg-orange-600 text-white border-orange-500 hover:border-orange-600"
+              onClick={() => document.getElementById('deliver-section')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Quero Saber Mais
             </Button>
           </div>
