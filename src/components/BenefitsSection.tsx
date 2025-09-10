@@ -2,11 +2,11 @@ import { CheckCircle } from "lucide-react";
 
 const BenefitsSection = () => {
   const benefits = [
-    "Um colaborador digital 24h ativo.",
-    "Mais clientes fechados com rapidez no primeiro contato.",
-    "Equipe presencial focada apenas em atender.",
-    "Organização e visão estratégica com relatórios.",
-    "Atendimento padronizado, porém humanizado."
+    "Redução imediata de custos com equipe administrativa",
+    "Zero risco de ausências por doença, férias ou atrasos",
+    "Respostas em segundos, sem deixar clientes esperando",
+    "Maior satisfação do cliente pela agilidade no atendimento",
+    "Captação de leads mesmo fora do horário comercial"
   ];
 
   return (
