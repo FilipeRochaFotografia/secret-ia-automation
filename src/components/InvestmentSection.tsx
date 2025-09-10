@@ -28,7 +28,7 @@ const InvestmentSection = () => {
                 <ul className="space-y-3">
                   <li className="flex items-start space-x-2">
                     <span className="text-success mt-1">•</span>
-                    <span className="text-muted-foreground">Configuração completa do sistema.</span>
+                    <span className="text-muted-foreground">Personalização completa do sistema.</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="text-success mt-1">•</span>
