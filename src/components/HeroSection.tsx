@@ -36,7 +36,7 @@ const HeroSection = () => {
         
         {/* True Rise Logo */}
         <div className="text-center mt-16">
-          
+          <p className="text-xs text-muted-foreground mb-2">Powered by</p>
           <img src="/lovable-uploads/984eec9a-2877-4dca-ad90-d94c388c7dc0.png" alt="True Rise Company Logo" className="max-w-48 mx-auto h-auto" />
         </div>
       </div>
