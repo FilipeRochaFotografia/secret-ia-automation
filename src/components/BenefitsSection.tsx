@@ -22,7 +22,7 @@ const BenefitsSection = () => {
             {/* Primeira linha com os primeiros 4 benefícios */}
             <div className="grid md:grid-cols-2 gap-8">
               {benefits.slice(0, 4).map((benefit, index) => (
-                <Card key={index} className="border-border/50 hover:shadow-lg transition-shadow duration-300">
+                <Card key={index} className="border-border/50 hover:shadow-[0_10px_30px_-5px_rgba(237,131,43,0.3)] shadow-[0_4px_15px_-2px_rgba(237,131,43,0.15)] transition-all duration-300 hover:scale-[1.02]">
                   <CardHeader className="text-center">
                     <div className="bg-success/10 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                       <CheckCircle className="h-8 w-8 text-success" />
@@ -40,7 +40,7 @@ const BenefitsSection = () => {
             {/* Segunda linha com o último benefício centralizado */}
             <div className="flex justify-center">
               <div className="max-w-md w-full">
-                <Card className="border-border/50 hover:shadow-lg transition-shadow duration-300">
+                <Card className="border-border/50 hover:shadow-[0_10px_30px_-5px_rgba(237,131,43,0.3)] shadow-[0_4px_15px_-2px_rgba(237,131,43,0.15)] transition-all duration-300 hover:scale-[1.02]">
                   <CardHeader className="text-center">
                     <div className="bg-success/10 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                       <CheckCircle className="h-8 w-8 text-success" />
