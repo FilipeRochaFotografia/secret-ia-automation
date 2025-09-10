@@ -8,10 +8,10 @@ const HeroSection = () => {
               <span className="block md:hidden">
                 Automatize<br />
                 o atendimento<br />
-                da <span className="font-montserrat font-extrabold" style={{ color: '#4a4a4a' }}>M<span style={{ color: '#ed832b' }}>C</span> FACE CLINIC</span>
+                da <span className="font-montserrat font-semibold" style={{ color: '#4a4a4a' }}>M<span style={{ color: '#ed832b' }}>C</span> FACE CLINIC</span>
               </span>
               <span className="hidden md:block">
-                Automatize o atendimento da <span className="font-montserrat font-extrabold" style={{ color: '#4a4a4a' }}>M<span style={{ color: '#ed832b' }}>C</span> FACE CLINIC</span>
+                Automatize o atendimento da <span className="font-montserrat font-semibold" style={{ color: '#4a4a4a' }}>M<span style={{ color: '#ed832b' }}>C</span> FACE CLINIC</span>
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
