@@ -31,7 +31,20 @@ const ConclusionSection = () => {
               ))}
             </div>
             
-            <Button variant="cta" size="lg" className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 h-auto font-bold w-full md:w-auto">
+            <Button 
+              variant="cta" 
+              size="lg" 
+              className="text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 h-auto font-bold w-full md:w-auto text-white"
+              style={{ background: '#ed832b', borderColor: '#ed832b' }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.background = '#d97316';
+                e.currentTarget.style.borderColor = '#d97316';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.background = '#ed832b';
+                e.currentTarget.style.borderColor = '#ed832b';
+              }}
+            >
               Quero Implementar Agora
             </Button>
           </div>

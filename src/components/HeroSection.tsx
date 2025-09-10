@@ -28,15 +28,15 @@ const HeroSection = () => {
             <Button 
               variant="hero" 
               size="lg" 
-              className="text-lg px-8 py-4 h-auto bg-orange-500 hover:bg-orange-600 text-white border-orange-500 hover:border-orange-600"
-              style={{ background: '#f97316', borderColor: '#f97316' }}
+              className="text-lg px-8 py-4 h-auto text-white"
+              style={{ background: '#ed832b', borderColor: '#ed832b' }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.background = '#ea580c';
-                e.currentTarget.style.borderColor = '#ea580c';
+                e.currentTarget.style.background = '#d97316';
+                e.currentTarget.style.borderColor = '#d97316';
               }}
               onMouseLeave={(e) => {
-                e.currentTarget.style.background = '#f97316';
-                e.currentTarget.style.borderColor = '#f97316';
+                e.currentTarget.style.background = '#ed832b';
+                e.currentTarget.style.borderColor = '#ed832b';
               }}
               onClick={() => document.getElementById('deliver-section')?.scrollIntoView({ behavior: 'smooth' })}
             >
