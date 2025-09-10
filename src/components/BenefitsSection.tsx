@@ -2,11 +2,11 @@ import { CheckCircle } from "lucide-react";
 
 const BenefitsSection = () => {
   const benefits = [
-    "Um colaborador digital 24h ativo.",
-    "Mais clientes fechados com rapidez no primeiro contato.",
-    "Equipe presencial focada apenas em atender.",
-    "Organização e visão estratégica com relatórios.",
-    "Atendimento padronizado, porém humanizado."
+    "Atendimento imediato e padronizado",
+    "Mais clientes fechados",
+    "Equipe focada apenas no presencial",
+    "Relatórios claros para decisões rápidas",
+    "Humanização com eficiência digital"
   ];
 
   return (
@@ -14,7 +14,7 @@ const BenefitsSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-16 text-center">
-            Benefícios para a MC FACE CLINIC
+            O que você ganha
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">

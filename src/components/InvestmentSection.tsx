@@ -24,22 +24,23 @@ const InvestmentSection = () => {
                 </CardDescription>
               </CardHeader>
               <CardContent className="pt-6">
+                <h4 className="font-semibold text-foreground mb-3">Inclui:</h4>
                 <ul className="space-y-3">
                   <li className="flex items-start space-x-2">
                     <span className="text-success mt-1">•</span>
-                    <span className="text-muted-foreground">Configuração completa do sistema.</span>
+                    <span className="text-muted-foreground">Configuração completa</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="text-success mt-1">•</span>
-                    <span className="text-muted-foreground">Treinamento do chatbot SecretarIA.</span>
+                    <span className="text-muted-foreground">Treinamento da SecretarIA</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="text-success mt-1">•</span>
-                    <span className="text-muted-foreground">Integração com Google Calendar e canais de atendimento.</span>
+                    <span className="text-muted-foreground">Integração com Google Calendar e Kommo CRM</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="text-success mt-1">•</span>
-                    <span className="text-muted-foreground">Integração completa com o Kommo CRM.</span>
+                    <span className="text-muted-foreground">Atualizações e melhorias contínuas</span>
                   </li>
                 </ul>
               </CardContent>
@@ -61,15 +62,15 @@ const InvestmentSection = () => {
                 <ul className="space-y-3">
                   <li className="flex items-start space-x-2">
                     <span className="text-success mt-1">•</span>
-                    <span className="text-muted-foreground">Melhorias contínuas para acompanhar as inovações do mercado.</span>
+                    <span className="text-muted-foreground">Melhorias contínuas para acompanhar as inovações do mercado</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="text-success mt-1">•</span>
-                    <span className="text-muted-foreground">Ajustes e refinamentos nos agentes.</span>
+                    <span className="text-muted-foreground">Ajustes e refinamentos nos agentes</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <span className="text-success mt-1">•</span>
-                    <span className="text-muted-foreground">Inclusão de novas funcionalidades conforme evolução da tecnologia.</span>
+                    <span className="text-muted-foreground">Inclusão de novas funcionalidades conforme evolução da tecnologia</span>
                   </li>
                 </ul>
               </CardContent>

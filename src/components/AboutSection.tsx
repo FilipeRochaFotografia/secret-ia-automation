@@ -2,7 +2,7 @@ import { Check } from "lucide-react";
 
 const AboutSection = () => {
   const services = [
-    "Micropigmentação e Despigmentação de sobrancelhas",
+    "Micropigmentação de sobrancelhas",
     "Remoção de tatuagem", 
     "Micropigmentação labial",
     "Bye Bye Estrias",
@@ -15,10 +15,10 @@ const AboutSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-8">
-            Sobre a MC FACE CLINIC
+            Por que a MC FACE CLINIC?
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground mb-12 leading-relaxed">
-            Há mais de 10 anos, a MC FACE CLINIC, liderada por Matheus Carvalho, vem elevando a beleza e transformando vidas através de procedimentos inovadores:
+            Mais de 10 anos transformando vidas com:
           </p>
           <div className="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto">
             {services.map((service, index) => (
