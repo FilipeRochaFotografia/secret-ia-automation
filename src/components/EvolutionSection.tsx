@@ -45,35 +45,36 @@ const EvolutionSection = () => {
           </div>
 
           <div className="bg-gradient-to-r from-primary/5 to-accent/5 p-8 md:p-12 rounded-2xl border border-primary/20">
-            <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-6 text-center">
+            <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-12 text-center">
               SecretarIA funciona como um funcionário digital 24h por dia:
             </h3>
-            <div className="space-y-8">
+            
+            <div className="space-y-10">
               {/* Primeira linha com 3 features */}
-              <div className="grid md:grid-cols-3 gap-6">
+              <div className="grid md:grid-cols-3 gap-8">
                 {features.slice(0, 3).map((feature, index) => {
                   const Icon = feature.icon;
                   return (
-                    <div key={index} className="flex items-center space-x-3">
-                      <div className="flex-shrink-0">
-                        <Icon className="h-6 w-6 text-success" />
+                    <div key={index} className="flex flex-col items-center text-center space-y-3">
+                      <div className="bg-primary/10 p-3 rounded-full">
+                        <Icon className="h-6 w-6 text-primary" />
                       </div>
-                      <span className="text-foreground font-medium">{feature.text}</span>
+                      <span className="text-foreground font-medium leading-relaxed">{feature.text}</span>
                     </div>
                   );
                 })}
               </div>
               
               {/* Segunda linha com 2 features centralizados */}
-              <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+              <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
                 {features.slice(3, 5).map((feature, index) => {
                   const Icon = feature.icon;
                   return (
-                    <div key={index + 3} className="flex items-center space-x-3">
-                      <div className="flex-shrink-0">
-                        <Icon className="h-6 w-6 text-success" />
+                    <div key={index + 3} className="flex flex-col items-center text-center space-y-3">
+                      <div className="bg-primary/10 p-3 rounded-full">
+                        <Icon className="h-6 w-6 text-primary" />
                       </div>
-                      <span className="text-foreground font-medium">{feature.text}</span>
+                      <span className="text-foreground font-medium leading-relaxed">{feature.text}</span>
                     </div>
                   );
                 })}
