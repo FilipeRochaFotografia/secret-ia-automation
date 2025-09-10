@@ -25,7 +25,7 @@ const InvestmentSection = () => {
                   <div className="text-3xl font-bold text-primary">
                     Por R$ 3.500,00
                   </div>
-                  <span className="text-sm text-accent font-medium">(desconto para cliente beta)</span>
+                  <span className="text-sm text-accent font-medium">(desconto para early user)</span>
                 </CardDescription>
               </CardHeader>
               <CardContent className="pt-6">
