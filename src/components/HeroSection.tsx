@@ -29,6 +29,15 @@ const HeroSection = () => {
               variant="hero" 
               size="lg" 
               className="text-lg px-8 py-4 h-auto bg-orange-500 hover:bg-orange-600 text-white border-orange-500 hover:border-orange-600"
+              style={{ background: '#f97316', borderColor: '#f97316' }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.background = '#ea580c';
+                e.currentTarget.style.borderColor = '#ea580c';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.background = '#f97316';
+                e.currentTarget.style.borderColor = '#f97316';
+              }}
               onClick={() => document.getElementById('deliver-section')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Quero Saber Mais
