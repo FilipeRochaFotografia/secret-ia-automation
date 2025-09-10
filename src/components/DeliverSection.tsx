@@ -44,7 +44,7 @@ const DeliverSection = () => {
               {deliverables.slice(0, 3).map((item, index) => {
                 const Icon = item.icon;
                 return (
-                  <Card key={index} className="border-border/50 hover:shadow-lg transition-shadow duration-300">
+                  <Card key={index} className="border-border/50 shadow-md hover:shadow-xl transition-shadow duration-300">
                     <CardHeader className="text-center">
                       <div className="bg-primary/10 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                         <Icon className="h-8 w-8 text-primary" />
@@ -68,7 +68,7 @@ const DeliverSection = () => {
               {deliverables.slice(3, 5).map((item, index) => {
                 const Icon = item.icon;
                 return (
-                  <Card key={index + 3} className="border-border/50 hover:shadow-lg transition-shadow duration-300">
+                  <Card key={index + 3} className="border-border/50 shadow-md hover:shadow-xl transition-shadow duration-300">
                     <CardHeader className="text-center">
                       <div className="bg-primary/10 p-4 rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center">
                         <Icon className="h-8 w-8 text-primary" />
