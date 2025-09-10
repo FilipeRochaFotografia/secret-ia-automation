@@ -8,7 +8,14 @@ const InvestmentSection = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-16 text-center">
-            Investimento na modernização da MC FACE CLINIC
+            <span className="block md:hidden">
+              Investimento na<br />
+              modernização da<br />
+              <span className="font-montserrat font-semibold" style={{ color: '#4a4a4a' }}>M<span style={{ color: '#ed832b' }}>C</span> FACE CLINIC</span>
+            </span>
+            <span className="hidden md:block">
+              Investimento na modernização da <span className="font-montserrat font-semibold" style={{ color: '#4a4a4a' }}>M<span style={{ color: '#ed832b' }}>C</span> FACE CLINIC</span>
+            </span>
           </h2>
           
           <div className="grid md:grid-cols-2 gap-8">
